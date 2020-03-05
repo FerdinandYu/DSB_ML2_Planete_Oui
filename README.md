@@ -6,3 +6,4 @@ Planete Oui Data Challenge
 2. 给TV和freezer加window;
 3. 组合模型 ;
 4. 看看XGBoost的feature importance再选选feature吧
+5. 对于kettle和washing_machine根据on/off整段替换
