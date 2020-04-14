@@ -8,22 +8,14 @@ The goal is to train an algorithm to replace many monitoring systems which are t
 ## Data description
 The first line of the input contains the header, the columns are separated by ',', and decimals by decimal point. The columns are:
 
-the “time_step”: date measured each minute (format yyyy-MM-ddTHH :mm :ss.Z)
-
-the “consumption”: household consumption (W) measured each minute
-
+* the “time_step”: date measured each minute (format yyyy-MM-ddTHH :mm :ss.Z)
+* the “consumption”: household consumption (W) measured each minute
 the “visibility”: distance at which it is possible to clearly distinguish an object (km) measured once per hour
-
 the “temperature”: temperature (°C) measured once per hour
-
 the “humidity”: presence of water in the air (%) measured once per hour
-
 the “humidex”: index used to integrate the combined effects of heat and humidity measured once per hour
-
 the “windchill”: an index that expresses the subjective feeling of cold or heat as a function of measured temperature, wind and humidity (°C) measured once per hour
-
 the “wind”: wind speed (km/h) measured once per hour
-
 the “pressure”: applied perpendicular to the surface of an object per unit area (Pa) measured once per hour
 The first line of the output contains the header, the columns are separated by ',', and decimals by decimal point. The columns are:
 
